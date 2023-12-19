@@ -1,0 +1,201 @@
+@media (max-width:1025px) {
+
+    #trash {
+        width: 0%;
+        height: 0%;
+        display: none;
+        opacity: 0;
+    }
+
+    #results div.VVR129CN small {
+        font-size: 7px;
+    }
+
+    #content {
+        gap: .7vw;
+    }
+
+    #content div:nth-child(1) button {
+        font-size: 1vw;
+        border-radius: 3px;
+        box-shadow: 0 3px 6px rgba(40, 167, 69, .5);
+        background: rgb(40, 167, 69);
+        color: #FFFFFF;
+    }
+
+    #content div:nth-child(2),
+    #content div:nth-child(3) {
+        font-size: .3vw;
+    }
+}
+
+@media (max-width:769px) {
+
+    nav {
+        flex-direction: row-reverse;
+
+    }
+
+    #trash {
+        width: 0%;
+        height: 0%;
+        display: none;
+        opacity: 0;
+    }
+
+    #left {
+        top: 0%;
+        left: -10%;
+        scale: 1.5;
+    }
+
+    #right {
+        position: absolute;
+        top: 0%;
+        left: 10%;
+        flex-direction: row-reverse;
+    }
+
+    #main1 h1 {
+        font-size: 3.4vw;
+        line-height: 7vh;
+        word-spacing: .65vw;
+    }
+
+    #main1 h1::first-letter {
+        font-size: 4.4vw;
+    }
+
+    #main1 p {
+        font-size: 1.5vw;
+        line-height: 5vh;
+        margin: 5.5vh 0;
+    }
+
+    #Search_Talent {
+        font-size: 1.2vw;
+    }
+
+    #S-talent-Line {
+        width: 75%;
+    }
+
+    form {
+        width: 97%;
+        height: 18%;
+        color: #fff;
+        overflow: hidden;
+        position: absolute;
+        bottom: 12%;
+        left: 0;
+    }
+
+    form #row1 fieldset {
+        width: 25%;
+        height: 85%;
+        border-width: 2px;
+    }
+
+    #row2 {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 1vw;
+    }
+
+    #row2 fieldset {
+        width: 25%;
+        height: 85%;
+        border-width: 2px;
+    }
+
+    #row2 fieldset #row2 legend {
+        font-size: .97vw;
+    }
+
+    #row2 a {
+        width: 20%;
+        height: 70%;
+    }
+
+    #FIND-VOICEOVER-TALENT {
+        width: 28%;
+        height: 7%;
+        padding: .4vh .7vw;
+        box-shadow: 0 0 12px #28A745;
+        margin: 2.5vh 0;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        color: #FFFFFF;
+        font-size: 1vw;
+        opacity: .8;
+
+        position: absolute;
+        right: -50%;
+        bottom: 9%;
+    }
+
+    #clear-filter {
+        width: fit-content;
+        height: 10%;
+        font-size: 1vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left: 1px solid gold;
+        border-right: 1px solid gold;
+        border-radius: 5px;
+        transition: all .5s;
+    }
+
+    #clear-filter:hover {
+        border: none;
+    }
+
+    form #row1 fieldset:nth-child(2) {
+        border-color: #ffffff7d;
+    }
+
+    form #row1 fieldset legend {
+        font-size: .97vw;
+    }
+
+    #content div:nth-child(2),
+    #content div:nth-child(3) {
+        font-size: .19vw;
+    }
+
+    #results {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 3vw;
+        row-gap: 3vh;
+        padding: 1vh 0 1vh 0;
+    }
+
+    #results .gigs {
+        width: 35%;
+    }
+
+    #results div.VVR129CN small {
+        font-size: 1vw;
+    }
+
+    #slider1 {
+        padding: 2% 10%;
+    }
+
+    #center1 {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1vh;
+    }
+
+    #inner-hero2 {
+        margin: 0;
+        padding: 0;
+    }
+}

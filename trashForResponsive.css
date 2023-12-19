@@ -1,0 +1,233 @@
+#trash {
+    width: 5%;
+    height: 5%;
+    position: fixed;
+    display: block;
+    left: 3%;
+    top: 0%;
+    overflow: hidden;
+    opacity: .7;
+    z-index: 999;
+    border-radius: 50px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 5px #000;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#trash:hover {
+    opacity: 1;
+}
+
+#trash img#forMobileResponse {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#trash img#forwardArrowresponsive {
+    width: 1vw;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    /* opacity: 0; */
+}
+
+#trash img#backwardArrowResponsive {
+    width: 1vw;
+    height: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+    opacity: 0;
+}
+
+
+@media (max-width:426px) {
+    nav {
+        position: fixed;
+        opacity: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        top: 0;
+        z-index: 998;
+    }
+
+    #trash img {
+        display: block;
+        opacity: 1;
+    }
+
+    #Mic img {
+        filter: blur(1px);
+    }
+
+    #main1 {
+        width: 97%;
+        height: 75%;
+        position: absolute;
+        top: 15%;
+        left: 1.5%;
+    }
+
+    #main1 h1 {
+        text-align: center;
+    }
+
+    #main1 p {
+
+        font-size: 2vw;
+        margin: 2.5vh 1.5vw;
+        border-top: .5px solid #ffffffa1;
+        border-bottom: .5px solid #ffffffa1;
+        text-align: center;
+    }
+
+    #search-talent {
+        width: 97%;
+        height: 5%;
+        justify-content: center;
+        margin: 5vh auto .5vh;
+        opacity: .9;
+    }
+
+    #Search_Talent {
+        width: 15%;
+        font-size: 1.7vw;
+        text-align: center;
+        position: relative;
+    }
+
+    #Search_Talent::before {
+        content: "";
+        width: 110px;
+        height: 1%;
+        border: 1px solid #FFF;
+        background-color: #FFF;
+        position: absolute;
+        right: 100%;
+        top: 50%;
+        transform: translate(-10%, -50%);
+
+
+    }
+
+    #Search_Talent::after {
+        content: "";
+        width: 110px;
+        height: 1%;
+        border: 1px solid #FFF;
+        background-color: #FFF;
+        position: absolute;
+        left: 100%;
+        top: 50%;
+        transform: translate(10%, -50%);
+
+
+    }
+
+    #S-talent-Line {
+        width: 0%;
+        height: 0%;
+        border: none;
+        display: none;
+    }
+
+    form {
+        width: 97%;
+        height: 25%;
+        left: 1.5%;
+        bottom: 0;
+    }
+
+    #row1 {
+        width: 97%;
+        height: 50%;
+        margin: 0 auto;
+        gap: 1vw;
+
+    }
+
+    form #row1 fieldset {
+        width: 20%;
+        height: 90%;
+        border-width: 1px;
+    }
+
+    form #row1 fieldset legend {
+        font-size: 1.7vw;
+    }
+
+    form #row1 fieldset select {
+        width: 100%;
+        height: 100%;
+        font-size: 1.7vw;
+        text-align: center;
+        opacity: .7;
+    }
+
+    /*/////////////////////////*/
+    form #row2 {
+        width: 97%;
+        height: 50%;
+        margin: 0 auto;
+        gap: 1vw;
+    }
+
+    form #row2 fieldset {
+        width: 20%;
+        height: 90%;
+        border-width: 1px;
+    }
+
+    form #row2 fieldset legend {
+        font-size: 1.7vw;
+    }
+
+    form #row2 fieldset select {
+        width: 100%;
+        height: 100%;
+        font-size: 1.5vw;
+        text-align: center;
+        opacity: .7;
+    }
+
+    #row2 a {
+        width: 20%;
+        height: 50%;
+    }
+
+    /*//////////////////////////*/
+    #clear-filter {
+        font-size: 1.7vw;
+    }
+
+    label[for="TimeSyncAudio"],
+    label[for="CommercialLicence"] {
+        font-size: 1.7vw;
+        accent-color: #28A745;
+    }
+
+    #FIND-VOICEOVER-TALENT {
+        font-size: 1.7vw;
+        position: absolute;
+        left: 3%;
+        bottom: -12%;
+    }
+
+    #results .gigs {
+        width: 90%;
+    }
+
+    .gigs h3 {
+        font-size: 3vw;
+    }
+
+    #results div.VVR129CN small {
+        font-size: 2vw;
+    }
+}

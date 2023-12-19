@@ -1,0 +1,302 @@
+#hero3 {
+    width: 100%;
+    height: fit-content;
+    padding: 0 0 3vw 0;
+    background-color: #FFFFFF;
+}
+
+#hero3-Content {
+    width: 100%;
+    height: 100%;
+    border-top: 2px dashed #28A745;
+    border-bottom: 2px dashed #28A745;
+    padding: 3% 10%;
+}
+
+#howItWorks {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    margin: 1vw 0;
+}
+
+#howItWorks h1 {
+    font-weight: 999;
+    color: #272727b9;
+    font-size: 2.8vw;
+    line-height: 5vw;
+}
+
+#hero3-Content-body {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#body11,
+#body12,
+#body13 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 1vw;
+}
+
+#body12 {
+    justify-content: right;
+}
+
+#rowthird {
+    display: flex;
+    border: 1px solid red;
+}
+
+.contentContent {
+    width: 30%;
+    height: 100%;
+}
+
+.contentContent img {
+    width: 100%;
+    height: 100%;
+}
+
+.contentContentright {
+    width: 34%;
+    height: 50%;
+
+}
+
+.threeheadings {
+    width: 100%;
+    height: 100%;
+}
+
+.threeheadings h1 {
+    width: 100%;
+    height: 100%;
+    color: #272727;
+    font-size: 1.8vw;
+    font-weight: 700;
+    margin: 0 0 1vw 0;
+
+}
+
+.threeheadings h1 span {
+    color: #28A745;
+}
+
+.threeheadings p {
+    width: 100%;
+    line-height: 1.8vw;
+    height: 100%;
+    font-size: 1vw;
+}
+
+#lgsbtn {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    align-self: end;
+}
+
+#lgsbtn button {
+    width: 12vw;
+    height: 3vw;
+    background-color: #28A745;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    font-size: 1vw;
+    padding: .5vw;
+}
+
+/* #floatedContent {
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 5vh 0;
+    gap: 3rem;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+#floatedContent .hero3Contents {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    overflow: hidden;
+    gap: 1vw;
+
+}
+
+#floatedContent .hero3Contents:nth-child(2) {
+    justify-content: right;
+}
+
+#floatedContent .hero3Contents:nth-child(2) .contentContentright {
+    width: 35%;
+
+}
+
+#floatedContent .hero3Contents:nth-child(2) .contentContentright .threeheadings p {
+    width: 100%;
+}
+
+#floatedContent .hero3Contents:nth-child(1) .contentContentright .threeheadings p,
+#floatedContent .hero3Contents:nth-child(2) .contentContentright .threeheadings p,
+#floatedContent .hero3Contents:nth-child(3) .contentContentright .threeheadings p {
+    width: 60%;
+}
+
+#floatedContent .hero3Contents:nth-child(1) .contentContentright,
+#floatedContent .hero3Contents:nth-child(3) .contentContentright {
+    width: 35%;
+}
+
+#floatedContent .hero3Contents:nth-child(1),
+#floatedContent .hero3Contents:nth-child(3) {
+    justify-content: flex-start;
+    margin-left: 10%;
+}
+
+#floatedContent .hero3Contents:nth-child(3) {
+    border: 1px solid red;
+}
+
+.hero3ContentsLeftSection {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    border: 1px solid #000;
+}
+
+.hero3ContentsLeftSection div {
+    width: 30%;
+    height: 100%;
+}
+
+.hero3ContentsLeftSection div:nth-child(1) {
+    width: 70%;
+}
+
+.one1 {
+    border: 1px solid red;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.contentContent {
+    width: 20%;
+    height: 100%;
+    height: fit-content;
+}
+
+
+.contentContent img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    align-items: flex-end;
+}
+
+.contentContentright {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.threeheadings {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: start;
+    text-align: start;
+}
+
+.threeheadings h1 {
+    width: 100%;
+    height: fit-content;
+    font-size: 1.9vw;
+    line-height: 5vh;
+    color: #272727;
+    font-weight: 700;
+}
+
+.threeheadings p {
+    width: 70%;
+    height: fit-content;
+    color: #272727;
+    font-weight: 500;
+    line-height: 3vh;
+    margin: 1em 0vw;
+    font-size: .9vw;
+}
+
+/* .threeheadings h1>span {
+    color: #28A745;
+    font-weight: 500;
+} */
+
+/* .hero3ContentsLeftSection{
+    width: 50%;
+    height: 100%;
+}
+.hero3ContentsLeftSection .contentContent {
+    width: 25%;
+    height: 100%;
+}
+
+.hero3ContentsLeftSection .contentContent img {
+    width: 100%;
+    height: fit-content;
+}
+
+#floatedContent .hero3Contents:nth-child(3) .contentContentright {
+    width: 50%;
+}
+
+.hero3ContentsLeftSection .contentContentright {
+    width: 30%;
+}
+
+.hero3ContentsLeftSection .contentContentright .threeheadings p {
+    width: 100%;
+    border: 1px solid #000;
+}
+
+#floatedContent .hero3Contents:nth-child(3) .contentContentright .threeheadings p {
+    width: 100%;
+    height: 10%;
+}
+
+#lgstrd {
+    background-color: #28A647;
+    width: 12vw;
+    height: 6vh;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    right: 0;
+    bottom: 10%;
+} */
